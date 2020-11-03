@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+}
+select {
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 810px;
+}
+label {
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    margin-left: 700px;
+}

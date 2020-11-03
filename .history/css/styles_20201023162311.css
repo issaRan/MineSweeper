@@ -1,0 +1,48 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    border:1px solid 1px
+}
+h1{
+    position: absolute;
+    text-align: center;
+}
+.fafaClockO{
+    font-size:48px;
+    color:#FFD700"
+}
+.grid div {
+    border: 5px;
+    border-color: #f5f3eb;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+}
+.numOfFlag{
+    position: absolute;
+    margin-left: 51%;
+    margin-top: -23px;
+}
+.flags {
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5em;
+}
+.bomb {
+    background-color: orange;
+}
+.checked{
+    background-color: red;
+}

@@ -1,0 +1,68 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    border:1px solid 1px
+}
+h1{
+    position: absolute;
+    text-align: center;
+}
+.fa.fa-clock-o{
+    position: absolute;
+    font-size:48px;
+    margin-left: 40%;
+    color:rgb(255,215,0)
+}
+.grid div {
+    border: 5px;
+    border-color: #f5f3eb;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+}
+.numOfFlag{
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 0.6%;
+    font-size: 24px;
+}
+.flags {
+    font-size: larger;
+    margin-left: 52%;
+    margin-top: 11px;
+    position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.5em;
+}
+.bomb {
+    background-color: orange;
+}
+.checked{
+    background-color: red;
+}
+#minutes{
+    margin-left: 44%;
+    position: absolute;
+    top: 20px;
+    font-size: 28px;
+}
+#seconds{
+    margin-left: 46%;
+    position: absolute;
+    top: 20px;
+    font-size: 28px;
+}
+#points{
+}
